@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel Bloom</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Raleway:wght@700&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <link rel="icon" href="public/logo.svg" type="image/x-icon" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="nav-inner">
+        <div class="nav-left">
+          <img src="public/logo.svg" id="logo" />
+          <span class="site-title">Travel Bloom</span>
+        </div>
+
+        <div class="nav-toggle" onclick="toggleNav()">☰</div>
+
+        <div class="nav-center">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="layout-wrapper">
+      <header class="hero">
+        <div class="hero-content">
+          <h1>Contact Us</h1>
+          <p style="max-width: 600px">
+            We'd love to hear from you! Fill out the form below and we'll get
+            back to you as soon as possible.
+          </p>
+        </div>
+      </header>
+    </div>
+
+    <form onsubmit="event.preventDefault(); alert('Message sent!');">
+      <div>
+        <label for="name" class="form-label">Name</label><br />
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Your name"
+          class="form-input" />
+      </div>
+
+      <div>
+        <label for="email" class="form-label">Email</label><br />
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Your email"
+          class="form-input" />
+      </div>
+
+      <div>
+        <label for="message" class="form-label">Message</label><br />
+        <textarea
+          id="message"
+          name="message"
+          rows="5"
+          placeholder="Your message"
+          class="form-input"></textarea>
+      </div>
+
+      <button type="submit" style="width: 100%">Submit</button>
+    </form>
+
+    <footer>
+      <p>
+        Follow us: <a href="#">Instagram</a> | <a href="#">Facebook</a> |
+        <a href="#">Twitter</a>
+      </p>
+    </footer>
+  </body>
+</html>

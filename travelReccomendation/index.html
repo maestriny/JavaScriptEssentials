@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel Bloom</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Raleway:wght@700&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <link rel="icon" href="public/logo.svg" type="image/x-icon" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="nav-inner">
+        <div class="nav-left">
+          <img src="public/logo.svg" id="logo" />
+          <span class="site-title">Travel Bloom</span>
+        </div>
+
+        <div class="nav-toggle" onclick="toggleNav()">☰</div>
+
+        <div class="nav-center">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+          <div class="search-wrapper-mobile">
+            <div class="search-container">
+              <input
+                type="text"
+                id="search-input-mobile"
+                placeholder="Enter a destination or keyword" />
+              <button onclick="search('mobile')">Search</button>
+              <button onclick="reset()">Clear</button>
+              <div id="search-results-mobile"></div>
+            </div>
+          </div>
+        </div>
+        <div class="nav-right">
+          <div class="search-wrapper">
+            <div class="search-container">
+              <input
+                type="text"
+                id="search-input-desktop"
+                placeholder="Enter a destination or keyword" />
+              <button onclick="search('desktop')">Search</button>
+              <button onclick="reset()">Clear</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="search-results"></div>
+    </nav>
+
+    <div class="layout-wrapper">
+      <header class="hero">
+        <div class="hero-content">
+          <h1>Adventure Awaits</h1>
+          <p>
+            Discover the world one adventure at a time. Let us guide you to your
+            next unforgettable journey. <br /><br />
+            At Travel Bloom, we’re here to help you uncover hidden gems, embrace
+            new cultures, and create memories that last a lifetime. No matter
+            where your dreams take you, your next story begins here.
+          </p>
+        </div>
+      </header>
+    </div>
+
+    <footer>
+      <p>
+        Follow us: <a href="#">Instagram</a> | <a href="#">Facebook</a> |
+        <a href="#">Twitter</a>
+      </p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,23 @@
+[
+{
+    "name": "Oliver Smith",
+    "role": "Chief Executive Officer (CEO)",
+    "photo": "public/3.png"
+    },
+    {
+      "name": "Claudia Miller",
+      "role": "Chief Technology Officer (CTO)",
+      "photo": "public/1.png"
+    },
+    {
+      "name": "Mark Trevor",
+      "role": "UX/UI Designer & Frontend Developer",
+      "photo": "public/2.png"
+    },
+    {
+      "name": "Renee Johnson",
+      "role": "Travel Blogger & Content Creator",
+      "photo": "public/4.png"
+    }
+  ]
+  
