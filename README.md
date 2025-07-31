@@ -1,6 +1,8 @@
-# Travel Recommendation 🌍
+# Travel Bloom ✈️
 
 A simple travel destination recommendation website built with JavaScript, HTML, and CSS as part of the *JavaScript Essentials* course on Coursera.
+
+✨ [Live Demo](https://maestriny.github.io/JavaScriptEssentials/)
 
 ## Features
 - Search and display recommended travel destinations
